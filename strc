@@ -3,13 +3,13 @@
 [ Wall Outlet ]
       ↓
     [ UPS ]
-      ↓ (power)
+      ↓ (powers)
  [ Raspberry Pi ]
       ↑
- [ USB from UPS ] ← (data monitoring)
+[ GPIO detects 5V adapter loss ]
       ↓
- [ Script to act on power loss ]
-
-
+[ Bluetooth → Computer ]
+      ↓
+[ Script runs on computer ]
 
 Pi จะได้รับพลังงานจาก UPS ตลอดและเช็คหาก UPS ใช้พลังงานตัวเองที่ไม่ได้มาจาก Wall Outlet ถ้าเป็นอย่างงั้นให้ Pi เรารัน script shutdown computer
