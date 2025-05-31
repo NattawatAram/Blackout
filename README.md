@@ -9,3 +9,6 @@ Project 1 (29/5/2025)
 Q ทำไมไม่ใช้เครื่องสำรองไฟ?
 
 A เมื่อถึงในช่วงเวลาหนึ่งคอมพิวเตอร์จะดับไปเองก็จะช่วยอะไรได้ไม่เยอะหากไม่อยู่บ้านหลายวัน
+
+# หลักการทำงาน (เพิ่มเติมที่ [stru](https://github.com/cordhxe/Blackout/blob/main/strc))
+![image](https://github.com/user-attachments/assets/34f93c4b-287b-4774-9731-7d451abc01d1)
