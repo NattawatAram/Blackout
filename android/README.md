@@ -1,6 +1,6 @@
 # Update log 1.0.0
 - เปลี่ยนจาก discord webhook เป็น webstie ในการเช็ค (localhost นะ)
- ![alt text](image.png)
+- ![alt text](image.png)
 
 
 # Requirement | สิ่งที่ต้องใช้
