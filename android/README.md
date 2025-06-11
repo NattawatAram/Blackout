@@ -13,3 +13,8 @@
 - เปิด ไฟล์ setup.bat
 - กดเลข 1 แล้วทำตามที่ไฟล์ bat บอก
 - เปิดไฟล์ woohoo!.py
+
+# To do list | จะทำอะไรต่อ
+- เปลี่ยนจากระบบเว็ปเป็น API แทน 
+- more user friendly
+
