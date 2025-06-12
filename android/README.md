@@ -1,6 +1,7 @@
-# Update log 1.0.0
-- เปลี่ยนจาก discord webhook เป็น webstie ในการเช็ค (localhost นะ)
-- ![alt text](image.png)
+# Update log 1.1.0
+- เพิ่มระบบ api และ website (ยัง localhost อยู่เหมือนเดิม :p)
+- ![image](https://github.com/user-attachments/assets/431f5623-4332-466d-92c7-1d3da9244df8)
+
 
 
 # Requirement | สิ่งที่ต้องใช้
@@ -15,7 +16,7 @@
 - เปิดไฟล์ woohoo!.py
 
 # To do list | จะทำอะไรต่อ
-- เปลี่ยนจากระบบเว็ปเป็น API แทน 
+- เปลี่ยนจากระบบเว็ปเป็น API แทน ✔️
 - more user friendly
-- website (?)
+- website (?) 
 
