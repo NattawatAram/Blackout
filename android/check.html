@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Device Status</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 50px;
+    }
+    .status {
+      font-size: 2em;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🔋 Device Power Status</h1>
+  <div class="status" id="status">Loading...</div>
+
+  <script>
+    const key = window.location.pathname.split("/").pop();
+    const url = `http://127.0.0.1:5000/api/data`;
+
+    fetch(url)
+      .then(res => res.json())
+      .then(data => {
+        const status = data.status;
+        const statusEl = document.getElementById("status");
+
+        if (status === "charging") {
+          statusEl.innerText = "⚡ Charging";
+        } else if (status === "disconnected") {
+          statusEl.innerText = "🔌 Disconnected";
+        } else {
+          statusEl.innerText = "❓ Unknown";
+        }
+      })
+      .catch(err => {
+        console.error(err);
+        document.getElementById("status").innerText = "⚠️ Error fetching status";
+      });
+  </script>
+</body>
+</html>
