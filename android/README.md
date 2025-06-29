@@ -17,4 +17,8 @@
 
 # To do list | จะทำอะไรต่อ
 - api ✅
-- key-gen (สำหรับเชื่อมกับ server)
+
+# Discontinued | หยุดทำ (adb)
+- ไม่มีให้update อะไรแล้ว
+- move on ไปโปรเจ็คหลัก
+
